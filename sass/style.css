@@ -1,0 +1,1151 @@
+@charset "UTF-8";
+.sity {
+  background: #E9DED4;
+}
+
+.sity__container {
+  padding-top: 62px;
+  margin-right: 3px;
+  margin-left: 0px;
+  overflow-x: clip !important;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+@media (max-width: 375px) {
+  .sity__container {
+    padding: 39px 0px 0px 6px;
+  }
+}
+
+.sity__content {
+  height: 444px;
+  position: relative;
+  z-index: 2;
+  padding-left: 66px;
+  width: 555px;
+  order: 0;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (max-width: 375px) {
+  .sity__content {
+    width: 335px;
+    height: 393px;
+    padding-left: 10px;
+  }
+}
+
+.content__play {
+  color: #313131;
+  text-align: center;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: "Golos Text";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 23.4px */
+  padding-bottom: 15px;
+}
+@media (max-width: 375px) {
+  .content__play {
+    font-family: Golos Text;
+    text-align: left;
+    padding: 9px 0px 0px 6px;
+  }
+}
+
+.main {
+  margin-left: -9%;
+  margin-top: -49.3%;
+}
+@media (max-width: 375px) {
+  .main {
+    width: 764px;
+    margin-left: -96%;
+    margin-top: -32%;
+  }
+}
+
+.right {
+  margin-left: 17%;
+}
+@media (max-width: 375px) {
+  .right {
+    margin-left: 19%;
+  }
+}
+
+.globe {
+  margin-left: 7.3%;
+}
+
+.sity__container {
+  top: 0;
+  left: 20%;
+  z-index: 5;
+}
+
+.sity__wrapper {
+  position: relative;
+}
+
+.description__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 39px 0px 105px 0px;
+}
+@media (max-width: 375px) {
+  .description__wrapper {
+    width: 335px;
+    height: 1773px;
+    justify-content: space-between;
+  }
+}
+.description__wrapper .description__photo {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 1222px;
+}
+@media (max-width: 375px) {
+  .description__wrapper .description__photo {
+    width: 335px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.description__wrapper .lakation {
+  text-align: right;
+  padding: 6px;
+  padding: 5px 11px 1px 0px;
+  letter-spacing: -0.1px;
+}
+@media (max-width: 375px) {
+  .description__wrapper .lakation {
+    font-family: "Merriweather";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+  }
+}
+.description__wrapper .lakation__color {
+  color: #F54932;
+}
+@media (max-width: 375px) {
+  .description__wrapper .lakation__color {
+    font-family: "Merriweather";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+}
+.description__wrapper .title__one {
+  font-family: "Merriweather";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.description__wrapper .title__top {
+  display: flex;
+  justify-content: center;
+}
+.description__wrapper .description__title {
+  width: 760px;
+  height: 195.43px;
+  padding: 9px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.description__wrapper .title__second {
+  display: flex;
+  flex-direction: column;
+  margin-top: -52px;
+}
+.description__wrapper h2 {
+  font-family: "Merriweather";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 49px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+@media (max-width: 375px) {
+  .description__wrapper h2 {
+    z-index: 10;
+    padding: 27px;
+    order: 0;
+    width: 335px;
+    font-family: "Merriweather";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+}
+.description__wrapper .order3 {
+  margin-top: -10px;
+  z-index: 20;
+  order: 1;
+  background: url("/chess/img/Frame tab.png") center center no-repeat;
+  width: 412px;
+  height: 250px;
+}
+@media (max-width: 375px) {
+  .description__wrapper .order3 {
+    width: 90%;
+    order: 1;
+    height: 215px;
+    width: 335px;
+  }
+}
+.description__wrapper .description__img {
+  position: relative;
+  z-index: 3;
+  width: 475px;
+  height: 527px;
+  background: url("/chess/img/Cooper Union Stamp Paper.png") center center no-repeat;
+}
+@media (max-width: 375px) {
+  .description__wrapper .description__img {
+    width: 335px;
+    height: 402px;
+  }
+}
+.description__wrapper .description__and-photo-footer {
+  padding-top: 2px;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 375px) {
+  .description__wrapper .description__and-photo-footer {
+    width: 375px;
+    flex-direction: column;
+  }
+}
+.description__wrapper .content {
+  display: flex;
+  flex-direction: column;
+  margin: 58px 0px 0px 43px;
+  width: 704px;
+}
+.description__wrapper .men {
+  z-index: 10;
+  position: absolute;
+  left: 16%;
+  bottom: 9%;
+}
+.description__wrapper .fair {
+  position: absolute;
+  left: -5%;
+  bottom: 30%;
+}
+.description__wrapper .che {
+  z-index: 10;
+  position: absolute;
+  left: 13%;
+  bottom: -10%;
+}
+.description__wrapper .hand {
+  z-index: 10;
+  position: absolute;
+  left: 41%;
+  bottom: -28%;
+}
+.description__wrapper .fairbottom {
+  position: absolute;
+  left: -2%;
+  bottom: -7%;
+}
+.description__wrapper .ruble {
+  z-index: 10;
+  position: absolute;
+  left: 74%;
+  top: 13%;
+}
+.description__wrapper .top__line {
+  font-family: Golos Text;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  opacity: 70%;
+}
+.description__wrapper .botto__line {
+  font-family: Golos Text;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.description__wrapper .administration {
+  font-family: Golos Text;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.description__wrapper table {
+  margin-top: 45px;
+  height: 276px;
+  width: 83%;
+}
+@media (max-width: 375px) {
+  .description__wrapper table {
+    display: none;
+  }
+}
+.description__wrapper .table__left {
+  font-family: Golos Text;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  text-align: left;
+}
+.description__wrapper .table__right {
+  font-family: Golos Text;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 0px 2px 0px 17px;
+}
+.description__wrapper .cross__out {
+  position: relative;
+}
+.description__wrapper .cross__out::before {
+  content: "";
+  position: absolute;
+  bottom: 9px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(230, 12, 12);
+}
+.description__wrapper .block__administration {
+  padding: 29px 0px 0px 0px;
+}
+
+.wrapper__transformation {
+  padding: 102px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1222px;
+  flex-direction: column;
+  position: relative;
+}
+.wrapper__transformation .transformation__title {
+  margin: -6px 0px 0px 0px;
+  position: relative;
+  display: flex;
+  height: 130px;
+}
+.wrapper__transformation .transformation__wasicov {
+  font-family: "Merriweather";
+  font-size: 53px;
+  font-weight: 400;
+  line-height: 65px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.wrapper__transformation .Future__sources {
+  font-family: Golos Text;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.wrapper__transformation .transformation_link {
+  position: absolute;
+  bottom: 7%;
+  left: 24.5%;
+  line-height: 1;
+}
+.wrapper__transformation .airplane-icone {
+  z-index: 11;
+  right: 33px;
+  position: absolute;
+  bottom: 92px;
+}
+.wrapper__transformation .layout-3-column-grid {
+  margin-top: 48px;
+  display: grid;
+  height: 400px;
+  grid-template-columns: repeat(3, 394px);
+  grid-template-rows: repeat(3, 112px);
+  grid-gap: 20px;
+}
+.wrapper__transformation .icon-numbering {
+  width: 36px;
+  height: 36px;
+  background-color: #ffffff;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+}
+.wrapper__transformation .tool__icon-second {
+  padding: 0px 10px;
+  display: flex;
+  justify-content: space-around;
+  font-family: Golos Text;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.wrapper__transformation .tool1 {
+  background: #E9DED4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 394px;
+  height: 112px;
+  grid-row: 1;
+  grid-column: 1;
+  font-family: Golos Text;
+}
+.wrapper__transformation .colom {
+  color: #313131;
+  width: 302px;
+  height: 72px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: height;
+}
+.wrapper__transformation .tool2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #E9DED4;
+  width: 394px;
+  height: 112px;
+  grid-row: 1;
+  grid-column: 2;
+}
+.wrapper__transformation .tool__icon-third {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  font-family: Golos Text;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.wrapper__transformation .tool3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #E9DED4;
+  width: 394px;
+  height: 239px;
+  grid-row: 1/6;
+  grid-column: 3;
+}
+.wrapper__transformation .tool__icon-fourth {
+  display: flex;
+  padding-bottom: 32%;
+  flex-direction: row;
+  gap: 17px;
+  font-family: Golos Text;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.wrapper__transformation .tool4 {
+  background: #E9DED4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 394px;
+  height: 112px;
+}
+.wrapper__transformation .tool__icon-five {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  font-family: Golos Text;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.wrapper__transformation .tool5 {
+  background: #E9DED4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 394px;
+  height: 112px;
+}
+.wrapper__transformation .tool__icon-sixth {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  font-family: Golos Text;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.wrapper__transformation .tool6 {
+  padding-top: 21px;
+  background: #E9DED4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 394px;
+  height: 117px;
+}
+.wrapper__transformation .tool__icon-seventh {
+  display: flex;
+  gap: 16px;
+  font-family: Golos Text;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.wrapper__transformation .tool7 {
+  padding-left: 26px;
+  background: #E9DED4;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 790px;
+  height: 136px;
+}
+.wrapper__transformation .tool__icon-seventh {
+  padding: 0px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  font-family: Golos Text;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.wrapper__transformation .colom-7 {
+  width: 446px;
+  height: 96px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: height;
+}
+
+.participants__wrapper {
+  padding-top: 6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+.participants__wrapper .wrapper__transformation {
+  width: 1222px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.participants__wrapper .participants__wrapper {
+  z-index: 11;
+  width: 1222px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.participants__wrapper .participants__tpo {
+  padding: 97px 65px 0px 63px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.participants__wrapper .participants__battons {
+  width: 151px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.participants__wrapper .carosel__numbering {
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
+.participants__wrapper .button-next-div {
+  position: relative;
+  background: #313131;
+  border-radius: 40px;
+  width: 44px;
+  height: 44px;
+}
+.participants__wrapper .button-next {
+  position: absolute;
+  width: 12.48px;
+  top: 30%;
+  left: 42%;
+  height: 19.92px;
+  background-image: url(/chess/img/icon.svg/carousel\ button\ right\ \(1\).svg);
+}
+.participants__wrapper .button-next-div:hover {
+  background: #FBCE51;
+}
+.participants__wrapper .button-prev-div {
+  position: relative;
+  background: #313131;
+  border-radius: 40px;
+  width: 44px;
+  height: 44px;
+}
+.participants__wrapper .button-prev {
+  position: absolute;
+  width: 12.48px;
+  top: 30%;
+  left: 37%;
+  height: 19.92px;
+  background-image: url(/chess/img/icon.svg/carusel\ button\ left.svg);
+}
+.participants__wrapper .button-prev-div:hover {
+  background: #FBCE51;
+}
+.participants__wrapper .participants__title {
+  font-family: "Merriweather";
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 65px;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 806px;
+  height: 65px;
+}
+.participants__wrapper .participants__battons {
+  padding: 4px 5px 0px 1px;
+  display: flex;
+}
+
+.carosel__slider-line {
+  display: flex;
+  width: 3315px;
+  margin-left: -25px;
+  margin-top: 56px;
+  justify-content: space-between;
+  position: relative;
+  left: 0px;
+  transition: 1s;
+}
+
+.slider-wrapper {
+  overflow: hidden;
+  margin-top: 24px;
+  margin: 0 auto;
+  width: 1182px;
+}
+
+.dots-wrapper {
+  display: none;
+  background: greenyellow;
+  width: 74px;
+  height: 10px;
+  gap: 6px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #D9D9D9;
+}
+
+.dot:active {
+  background: #313131;
+}
+
+.active {
+  background: #313131;
+}
+
+.champion {
+  gap: 11px;
+  width: 394px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.champion__name {
+  margin-top: 15px;
+  font-family: Golos Text;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.champion__text {
+  padding: 0px 0px 0px 0px;
+}
+
+.champion__btn {
+  text-align: center;
+  align-items: center;
+  width: 113px;
+  height: 30px;
+  color: #3057A2;
+}
+
+.champion__btn:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background: #3057A2;
+  transition: 0.5s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Merriweather", serif;
+}
+
+.top__line {
+  border-right: 1px solid #D0D0D0;
+  line-height: 1.1;
+  border-bottom: 1px solid #D0D0D0;
+}
+
+.botto__line {
+  border-bottom: 1px solid #D0D0D0;
+  padding-right: 2px;
+}
+
+h1 {
+  text-align: start !important;
+  color: #313131;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Merriweather;
+  line-height: 1.1;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: height;
+}
+@media (max-width: 375px) {
+  h1 {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: height;
+  }
+}
+
+h2 {
+  color: #313131;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: "Merriweather";
+  text-transform: uppercase;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: height;
+}
+@media (max-width: 375px) {
+  h2 {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: height;
+  }
+}
+h2 h3 {
+  color: #313131;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: "Golos Text";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: height;
+}
+h2 h4 {
+  font-family: "Golos Text";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: height;
+}
+h2 h5 {
+  font-family: Golos Text;
+  text-align: left;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: height;
+}
+h2 .span_line {
+  background-color: #ffffff;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+h2 .title_discription {
+  font-family: "Merriweather";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 49px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #F54932;
+}
+@media (max-width: 375px) {
+  h2 .title_discription {
+    font-family: "Merriweather";
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 335px;
+    height: 152px;
+  }
+}
+
+button {
+  width: 263px;
+  height: 72px;
+  border-radius: 66px;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 0;
+  color: #1F1F1F;
+  text-align: center;
+  font-family: "Golos Text";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%; /* 20.8px */
+  outline: none;
+  background-color: transparent;
+}
+@media (max-width: 375px) {
+  button {
+    padding: 0px;
+    width: 335px;
+    height: 47px;
+    font-family: Golos Text;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+}
+
+.sity__buttons {
+  padding: 0px 0px 0px 5px;
+  display: flex;
+  gap: 7px;
+  width: 542px;
+}
+@media (max-width: 375px) {
+  .sity__buttons {
+    flex-direction: column;
+    width: 335px;
+    padding: 10px 10px 10px 10px;
+  }
+}
+
+.active {
+  background: #1F1F1F;
+  color: #ffffff;
+}
+
+.button_colorblack .active {
+  border: 2px solid black;
+  background: #1F1F1F;
+  color: #ffffff;
+}
+
+.button_colorblack:hover {
+  border: none;
+  background: #FBCE51;
+  color: #ffffff;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.button_colored .active {
+  border: 2px solid #313131;
+  background: rgb(233, 222, 212), rgb(124, 190, 154);
+  background: #e9ded4 !important;
+  color: #313131;
+}
+
+.button_colored:hover {
+  background: #FBCE51;
+  color: #313131;
+  border: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.logo {
+  margin-left: 5%;
+  gap: 12px;
+  padding-bottom: 2px;
+  display: flex;
+}
+@media (max-width: 375px) {
+  .logo {
+    gap: 3px;
+  }
+}
+
+.link_horse {
+  display: flex;
+  gap: 12px;
+  z-index: 15;
+}
+@media (max-width: 375px) {
+  .link_horse {
+    margin: 0px 0px 0px 0px;
+    justify-content: center;
+    gap: 6px;
+  }
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1365px;
+}
+@media (max-width: 375px) {
+  .wrapper {
+    width: 375px;
+  }
+}
+
+.header {
+  background: #E9DED4;
+  padding: 26px 0px 2px;
+  position: relative;
+}
+@media (max-width: 375px) {
+  .header {
+    padding: 18px 0px 0px 0px;
+  }
+}
+.header .header__wrapper {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1365px;
+}
+@media (max-width: 375px) {
+  .header .header__wrapper {
+    padding: 0px 0px 0px 0px;
+  }
+}
+.header .horses__clab-text {
+  color: #595653;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: "Golos Text";
+  font-size: 16.651px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 108%; /* 17.983px */
+  text-transform: uppercase;
+}
+@media (max-width: 375px) {
+  .header .horses__clab-text {
+    font-size: 14.24px;
+  }
+}
+.header .horses {
+  display: flex;
+  width: 90px;
+}
+@media (max-width: 375px) {
+  .header .horses {
+    padding: 0px 0px 0px 0px;
+    width: 80px;
+  }
+}
+.header .horse {
+  background-image: url("/chess/img/icon.svg/Vector.svg");
+  width: 23px;
+  height: 32px;
+  display: inline-block;
+}
+
+.horse:hover {
+  cursor: pointer;
+  filter: brightness(0) saturate(86%) invert(78%) sepia(87%) saturate(4128%) hue-rotate(724deg) brightness(105%) contrast(82%);
+}
+
+.horses__clab-text:hover {
+  cursor: pointer;
+  color: #FBCE51;
+}
+
+.string_top {
+  background: #F54932;
+  overflow: hidden;
+  margin-bottom: 54px;
+}
+.string_top .string__line {
+  height: 49px;
+  display: flex;
+  gap: 10px;
+  width: 2335px;
+  align-items: center;
+  text-align: center;
+  animation: string__line 20s linear infinite;
+}
+.string_top .string {
+  font-family: "Merriweather";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: right;
+}
+.string_top .string__line:hover {
+  animation-play-state: paused;
+}
+.string_top .string {
+  color: #ffffff;
+  font-family: "Merriweather";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: right;
+}
+@keyframes string__line {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.string__bottom {
+  margin-top: 137px;
+  background: #F54932;
+  overflow: hidden;
+  height: 55px;
+}
+.string__bottom .string__line {
+  height: 49px;
+  display: flex;
+  gap: 10px;
+  width: 2335px;
+  align-items: center;
+  text-align: center;
+  animation: string__line 20s linear infinite;
+}
+.string__bottom .string {
+  font-family: "Merriweather";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #ffffff;
+}
+.string__bottom .string__line:hover .string {
+  font-size: 24px;
+  color: #FBCE51;
+}
+@keyframes string__line {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+footer {
+  padding: 54px 0px 0px 83px;
+  height: 100%;
+  background: #E9DED4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+footer .footer__title-text {
+  width: 1222px;
+  font-family: Golos Text;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding: 0px 81px 15px 0px;
+}
+@media (max-width: 375px) {
+  footer .footer__title-text {
+    height: 214px;
+    width: 275px;
+  }
+}/*# sourceMappingURL=style.css.map */
