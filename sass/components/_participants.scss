@@ -1,0 +1,120 @@
+.participants__wrapper{
+  // height: 630px;
+  padding-top: 6%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding: 0px 10px ;
+ .wrapper__transformation{
+  // height: 660px;
+  width: 1222px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+.participants__wrapper{
+  z-index: 11;
+
+  // height: 660px;
+    width: 1222px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.participants__tpo{
+  padding: 97px 65px 0px 63px;
+  // padding: 203px 67px 5px 65px;
+  // border: 1px solid red;
+
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ 
+}
+.participants__battons{
+
+
+  width:151px ;
+  // height: 44px;
+  display: flex;
+  justify-content: space-between;
+  // align-items: center;
+  text-align: center;
+}
+
+
+.carosel__numbering{
+align-items: center;
+  display: flex;
+  text-align: center;
+  // width: 35px;
+  // height: 11px;
+  // gap: 1px;
+}
+//________вправо_______________________________//
+.button-next-div{
+  position: relative;
+background: #313131;
+border-radius: 40px;
+width: 44px;
+height: 44px;
+}
+.button-next{
+  
+  position: absolute;
+  width: 12.48px;
+  top: 30%;
+  left: 42%;
+  height: 19.92px;
+  background-image: url(/chess/img/icon.svg/carousel\ button\ right\ \(1\).svg);
+
+}
+
+.button-next-div:hover{
+background: $color-actiove;
+}
+//_____________лево_____________________________________//
+
+.button-prev-div{
+  position: relative;
+  background: #313131;
+  border-radius: 40px;
+  width: 44px;
+  height: 44px;
+}
+.button-prev{
+  position: absolute;
+  width: 12.48px;
+  top: 30%;
+  left: 37%;
+  height: 19.92px;
+  background-image: url(/chess/img/icon.svg/carusel\ button\ left.svg);
+}
+.button-prev-div:hover{
+  background: $color-actiove;
+  }
+
+
+
+
+.participants__title{
+  font-family: 'Merriweather';
+font-size: 54px;
+font-weight: 400;
+line-height: 65px;
+letter-spacing: 0px;
+text-align: left;
+width: 806px;
+height: 65px;
+
+}
+.participants__battons{
+  padding: 4px 5px 0px 1px;
+  display: flex;
+}
+//_________slider_________________________
+
+
+
+
+}

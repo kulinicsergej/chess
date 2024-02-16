@@ -1,0 +1,8 @@
+.wrapper {
+  // border: 1px solid red;
+  margin: 0 auto;
+max-width: $content-width;
+@include media-smail{
+  width: 375px;
+}
+}
