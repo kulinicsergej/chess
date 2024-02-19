@@ -1148,7 +1148,8 @@ button {
   }
 }
 .header .horse {
-  background-image: url("/img/icon.svg/Vector.svg");
+  background-image: url("/img/icon.svg/Vector (1).svg");
+  background-size: cover;
   width: 23px;
   height: 32px;
   display: inline-block;
