@@ -22,7 +22,7 @@ padding: 0px 10px ;
     justify-content: center;
 }
 .participants__tpo{
-  padding: 97px 65px 0px 63px;
+  padding: 201px 65px 0px 63px;
   // padding: 203px 67px 5px 65px;
   // border: 1px solid red;
 
@@ -64,9 +64,11 @@ height: 44px;
   position: absolute;
   width: 12.48px;
   top: 30%;
-  left: 42%;
+  left: 38%;
   height: 19.92px;
-  background-image: url(/chess/img/icon.svg/carousel\ button\ right\ \(1\).svg);
+  // background-image: url(/img/carousel\ button\ right.png) ;
+  background-image: url(/img/icon.svg/carousel\ button\ right\ \(1\).svg);
+
 
 }
 
@@ -88,7 +90,7 @@ background: $color-actiove;
   top: 30%;
   left: 37%;
   height: 19.92px;
-  background-image: url(/chess/img/icon.svg/carusel\ button\ left.svg);
+  background-image: url(/img/icon.svg/carusel\ button\ left.svg);
 }
 .button-prev-div:hover{
   background: $color-actiove;

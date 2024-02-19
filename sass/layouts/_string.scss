@@ -2,6 +2,9 @@
   background:$color-string;
   overflow: hidden;
   margin-bottom: 54px;
+  @include media-smail{
+    margin-bottom: 0px;
+  }
 
 .string__line{
 height:49px;

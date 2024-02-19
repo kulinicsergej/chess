@@ -1,8 +1,9 @@
 
 .wrapper__transformation{
   // border: 1px solid red;
+  
   // padding-top: 2.88%;
-  padding: 102px;
+  padding: 207px 0px 0px 0px ;
   display: flex;
   flex-wrap: wrap;
   width: 1222px;
@@ -10,7 +11,7 @@
   position: relative;
 
 .transformation__title{
-  
+  // padding-top: 102px;
   margin: -6px 0px 0px 0px;
   // width: 806px;
   position: relative;
@@ -50,9 +51,9 @@ text-align: left;
 }
 .airplane-icone{
   z-index: 11;
-  right: 33px;
+  right: -5%;
   position: absolute;
-  bottom: 92px;
+  bottom: -1%;
 }
 .layout-3-column-grid{
   // padding-top: 43px;
@@ -150,6 +151,7 @@ font-weight: 600;
 line-height: 24px;
 letter-spacing: 0px;
 text-align: left;
+padding-top: 10px;
 
 }
 //_______3___________________________________//
