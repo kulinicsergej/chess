@@ -5,6 +5,12 @@
   background:$color-string;
   overflow: hidden;
   height: 55px;
+  @include media-smail{
+  margin-top: 38px;
+  height: 42px;
+
+
+  }
 
   .string__line{
     height:49px;

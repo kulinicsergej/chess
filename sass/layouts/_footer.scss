@@ -6,9 +6,12 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 overflow: hidden;
-;
+@include media-smail{
+  height: auto;
+}
 
 .footer__title-text{
+  margin-top: -7px;
   width: 1222px;
   // height: 38px;
   font-family: Golos Text;
@@ -20,8 +23,10 @@ text-align: left;
 // border: 1px solid red;
 padding: 0px 81px 15px 0px;
  @include media-smail{
-  height: 214px;
-  width: 275px;
+  height: 114px;
+  width: 335px;
+padding: 0px 0px 0px 0px;
+margin: -9px 0px 0px -61px ;
  }
 }
 

@@ -35,16 +35,21 @@ text-align: center;
   padding: 0px 0px 0px 5px;
 
 display: flex;
-gap: 7px;
+gap: 19px;
 width: 542px;
 @include media-smail{
   flex-direction: column;
   width: 335px;
-  padding: 10px 10px 10px 10px ;
+  padding: 3px 10px 3px 2px ;
+gap: 17px;
+br {
+  display: none;
+}
+
  }
 
 }
-.active{
+a .active{
   background: #1F1F1F;
   color: #ffffff;
 }
@@ -54,14 +59,28 @@ width: 542px;
   color: #ffffff;
 
 }
+.button_colorblack{
+  @include media-smail{
+    padding: 9px;
+
+  }
+  
+}
+
 .button_colorblack:hover{
+  // padding: 10px;
   border: none;
   background: $color-actiove;
   color: #ffffff;
   transition: 0.5s;
   cursor: pointer;
 }
+.button_colored{
+  @include media-smail{
+    padding: 9px;
 
+  }
+}
 
 .button_colored .active{
   border:2px solid #313131;

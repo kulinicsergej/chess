@@ -35,8 +35,16 @@ z-index: 2;
   @include media-smail{
     width: 335px;
     height: 393px;
-  padding-left: 10px;
+  padding-left: 13px;
 
+  }
+}
+.main-dextop{
+  position: absolute;
+  bottom: 5%;
+  left: 90.5%;
+  @include media-smail{
+    display: none;
   }
 }
 .content__play{
@@ -52,7 +60,7 @@ padding-bottom: 15px;
 @include media-smail{
   font-family: Golos Text;
   text-align: left;
-  padding: 9px 0px 0px 6px ;
+  padding: 0px 0px 0px 2px ;
 }
 }
 .main{
