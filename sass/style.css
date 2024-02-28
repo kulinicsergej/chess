@@ -1200,9 +1200,9 @@ tbody {
   position: absolute;
   width: 12.48px;
   top: 30%;
-  left: 38%;
+  left: 39%;
   height: 19.92px;
-  background-image: url(/img/icon.svg/carousel\ button\ right\ \(1\).svg);
+  background-image: url("/img/icon.svg/carousel button right (1).svg");
 }
 @media (max-width: 375px) {
   .button-next {
@@ -1755,7 +1755,7 @@ a .active {
 }
 
 .horse {
-  background-image: url("/img/icon.svg/Vector (1).svg");
+  background-image: url(/img/icon.svg/Vector\ \(1\).svg);
   background-size: cover;
   width: 23px;
   height: 32px;
