@@ -89,8 +89,11 @@ text-align: left;
 }
 .champion__text{
   padding: 0px 0px 0px 0px;
+@include font (17px,120%,400);
+
   @include media-smail{
-    font-size: 17px;
+@include font (17px,24px,400) ;
+   
   }
 }
 

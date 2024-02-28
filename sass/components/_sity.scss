@@ -7,35 +7,58 @@
   padding-top: 62px;
   margin-right: 3px;
   margin-left: 0px;
+  
   overflow-x: clip !important;
   // border: 1px solid rgb(107, 27, 235);
 justify-content: center;
 align-items: center;
 text-align: center;
+max-width: 1366px;
  @include media-smail{
   padding: 39px 0px 0px 6px;
-  
+ }
+//  @include big-width {
+
+//   overflow-x:visible !important;
+//   // border: 1px solid rgb(107, 27, 235);
+// // justify-content: center;
+// // align-items: center;
+// // text-align: center;
+//  }
+}
+.sity__container{
+   @include big-width {
+
+  overflow-x:visible !important;
+//   // border: 1px solid rgb(107, 27, 235);
+// // justify-content: center;
+// // align-items: center;
+// // text-align: center;
  }
 }
+
+
+
+
 .sity__content{
-  height: 444px;
+  height: 443px;
 position: relative;
 z-index: 2;
   padding-left: 66px;
-// padding-left: 4%;
-// padding-top: 4.5%;
-//   // height: 444px;
-//   border: 1px solid red;
   width: 555px;
   order: 0;
   display: flex;
   gap: 10px;
   flex-direction: column;
   justify-content: space-between;
+ 
+  @include big-width{
+  padding-left: 73px;
+  }
   @include media-smail{
     width: 335px;
     height: 393px;
-  padding-left: 13px;
+  padding-left: 12px !important;
 
   }
 }
@@ -45,6 +68,10 @@ z-index: 2;
   left: 90.5%;
   @include media-smail{
     display: none;
+  }
+  @include big-width{
+  left: 91.5%;
+
   }
 }
 .content__play{
@@ -57,6 +84,11 @@ font-style: normal;
 font-weight: 400;
 line-height: 130%; /* 23.4px */
 padding-bottom: 15px;
+
+@include big-width{
+  padding-bottom: 12px;
+  margin-top: 12px;
+}
 @include media-smail{
   font-family: Golos Text;
   text-align: left;
@@ -66,12 +98,17 @@ padding-bottom: 15px;
 .main{
   margin-left: -9%;
   margin-top: -49.3%;
-  @include media-smail{
- width: 764px;
 
-    margin-left: -96%;
-  margin-top: -32%;
+   @include big-width{
+    margin-left: -8.22%;
+margin-top: -46.3%;
    }
+   @include media-smail{
+    width: 764px;
+   
+       margin-left: -96% !important;
+     margin-top: -32%;
+      }
 }
 .right{
   margin-left: 17%;

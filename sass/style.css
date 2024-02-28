@@ -11,6 +11,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  max-width: 1366px;
 }
 @media (max-width: 375px) {
   .sity__container {
@@ -18,8 +19,14 @@
   }
 }
 
+@media (max-width: 1920px) {
+  .sity__container {
+    overflow-x: visible !important;
+  }
+}
+
 .sity__content {
-  height: 444px;
+  height: 443px;
   position: relative;
   z-index: 2;
   padding-left: 66px;
@@ -30,11 +37,16 @@
   flex-direction: column;
   justify-content: space-between;
 }
+@media (max-width: 1920px) {
+  .sity__content {
+    padding-left: 73px;
+  }
+}
 @media (max-width: 375px) {
   .sity__content {
     width: 335px;
     height: 393px;
-    padding-left: 13px;
+    padding-left: 12px !important;
   }
 }
 
@@ -46,6 +58,11 @@
 @media (max-width: 375px) {
   .main-dextop {
     display: none;
+  }
+}
+@media (max-width: 1920px) {
+  .main-dextop {
+    left: 91.5%;
   }
 }
 
@@ -60,6 +77,12 @@
   line-height: 130%; /* 23.4px */
   padding-bottom: 15px;
 }
+@media (max-width: 1920px) {
+  .content__play {
+    padding-bottom: 12px;
+    margin-top: 12px;
+  }
+}
 @media (max-width: 375px) {
   .content__play {
     font-family: Golos Text;
@@ -72,10 +95,16 @@
   margin-left: -9%;
   margin-top: -49.3%;
 }
+@media (max-width: 1920px) {
+  .main {
+    margin-left: -8.22%;
+    margin-top: -46.3%;
+  }
+}
 @media (max-width: 375px) {
   .main {
     width: 764px;
-    margin-left: -96%;
+    margin-left: -96% !important;
     margin-top: -32%;
   }
 }
@@ -491,12 +520,22 @@ tbody {
 
 @media (max-width: 375px) {
   .row {
-    display: flex;
+    display: flex !important;
     flex-direction: row;
     justify-content: flex-start;
   }
 }
 
+@media (max-width: 375px) {
+  .row::before {
+    content: "";
+    position: absolute;
+    left: 6px;
+    bottom: 22.8%;
+    width: 85%;
+    border-bottom: 1px solid #D0D0D0;
+  }
+}
 .table__left {
   font-family: Golos Text;
   font-size: 20px;
@@ -680,6 +719,7 @@ tbody {
   margin-top: 48px;
   display: grid;
   height: 400px;
+  left: 0px !important;
   grid-template-columns: repeat(3, 394px);
   grid-template-rows: repeat(3, 112px);
   grid-gap: 20px;
@@ -722,6 +762,11 @@ tbody {
   letter-spacing: 0px;
   text-align: left;
 }
+@media (max-width: 375px) {
+  .tool__icon-second {
+    line-height: 23px;
+  }
+}
 
 .tool1 {
   background: #E9DED4;
@@ -760,7 +805,7 @@ tbody {
     width: 247px;
     font-size: 18px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: height;
   }
 }
@@ -1019,7 +1064,7 @@ tbody {
 }
 @media (max-width: 375px) {
   .btn__slider2 {
-    margin: 20px 0px 0px 97px;
+    margin: 23px 0px 0px 100px;
     width: 178px;
     height: 36px;
     display: flex;
@@ -1044,13 +1089,39 @@ tbody {
 }
 
 .button-prev2 {
+  position: relative;
   width: 36px;
   height: 36px;
   border-radius: 50%;
   background: #313131;
 }
 
+@media (max-width: 375px) {
+  .prev2 {
+    position: absolute;
+    left: 36%;
+    width: 10px;
+    height: 16px;
+    top: 31%;
+    background-image: url("/img/icon.svg/carusel button left.svg");
+    background-size: cover;
+  }
+}
+
+@media (max-width: 375px) {
+  .next2 {
+    position: absolute;
+    left: 41%;
+    width: 10px;
+    height: 16px;
+    top: 31%;
+    background-image: url("/img/icon.svg/carousel button right (1).svg");
+    background-size: cover;
+  }
+}
+
 .button-next2 {
+  position: relative;
   background: #313131;
   width: 36px;
   height: 36px;
@@ -1291,10 +1362,17 @@ tbody {
 
 .champion__text {
   padding: 0px 0px 0px 0px;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: height;
 }
 @media (max-width: 375px) {
   .champion__text {
     font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: height;
   }
 }
 
@@ -1425,7 +1503,7 @@ h2 h4 {
   }
 }
 h2 h5 {
-  font-family: Golos Text;
+  font-family: "Golos Text";
   text-align: left;
   font-size: 20px;
   font-style: normal;
@@ -1434,7 +1512,7 @@ h2 h5 {
 }
 @media (max-width: 375px) {
   h2 h5 {
-    font-size: 16px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 400;
     line-height: height;
@@ -1467,6 +1545,30 @@ h2 .title_discription {
   }
 }
 
+.sity__buttons {
+  padding: 0px 0px 0px 5px;
+  display: flex;
+  gap: 11px;
+  width: 542px;
+}
+@media (max-width: 1920px) {
+  .sity__buttons {
+    gap: 19px;
+    padding: 17px 0px 0px 5px;
+  }
+}
+@media (max-width: 375px) {
+  .sity__buttons {
+    flex-direction: column;
+    width: 335px;
+    padding: 3px 10px 3px 2px;
+    gap: 11px;
+  }
+  .sity__buttons br {
+    display: none;
+  }
+}
+
 button {
   width: 263px;
   height: 72px;
@@ -1476,7 +1578,6 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex: 1 0 0;
   color: #1F1F1F;
   text-align: center;
   font-family: "Golos Text";
@@ -1498,24 +1599,6 @@ button {
     line-height: 21px;
     letter-spacing: 0px;
     text-align: center;
-  }
-}
-
-.sity__buttons {
-  padding: 0px 0px 0px 5px;
-  display: flex;
-  gap: 19px;
-  width: 542px;
-}
-@media (max-width: 375px) {
-  .sity__buttons {
-    flex-direction: column;
-    width: 335px;
-    padding: 3px 10px 3px 2px;
-    gap: 17px;
-  }
-  .sity__buttons br {
-    display: none;
   }
 }
 
@@ -1571,9 +1654,16 @@ a .active {
   padding-bottom: 2px;
   display: flex;
 }
+@media (max-width: 1920px) {
+  .logo {
+    margin-left: 6%;
+    gap: 5px;
+  }
+}
 @media (max-width: 375px) {
   .logo {
     gap: 3px;
+    margin-left: 5%;
   }
 }
 
@@ -1581,6 +1671,11 @@ a .active {
   display: flex;
   gap: 12px;
   z-index: 15;
+}
+@media (max-width: 1920px) {
+  .link_horse {
+    gap: 4px;
+  }
 }
 @media (max-width: 375px) {
   .link_horse {
@@ -1605,22 +1700,29 @@ a .active {
   padding: 26px 0px 2px;
   position: relative;
 }
-@media (max-width: 375px) {
+@media (max-width: 1920px) {
   .header {
-    padding: 18px 0px 0px 0px;
+    padding: 26px 0px 0px 0px;
   }
 }
-.header .header__wrapper {
+@media (max-width: 375px) {
+  .header {
+    padding: 17px 0px 0px 0px;
+  }
+}
+
+.header__wrapper {
   position: relative;
   margin: 0 auto;
   max-width: 1365px;
 }
 @media (max-width: 375px) {
-  .header .header__wrapper {
+  .header__wrapper {
     padding: 0px 0px 0px 0px;
   }
 }
-.header .horses__clab-text {
+
+.horses__clab-text {
   color: #595653;
   font-variant-numeric: lining-nums proportional-nums;
   font-family: "Golos Text";
@@ -1631,21 +1733,28 @@ a .active {
   text-transform: uppercase;
 }
 @media (max-width: 375px) {
-  .header .horses__clab-text {
+  .horses__clab-text {
     font-size: 14.24px;
   }
 }
-.header .horses {
+
+.horses {
   display: flex;
   width: 90px;
 }
+@media (max-width: 1920px) {
+  .horses {
+    width: 92px;
+  }
+}
 @media (max-width: 375px) {
-  .header .horses {
+  .horses {
     padding: 0px 0px 0px 0px;
     width: 80px;
   }
 }
-.header .horse {
+
+.horse {
   background-image: url("/img/icon.svg/Vector (1).svg");
   background-size: cover;
   width: 23px;
@@ -1755,7 +1864,7 @@ a .active {
 }
 
 footer {
-  padding: 54px 0px 0px 83px;
+  padding: 46px 0px 0px 83px;
   height: 100%;
   background: #E9DED4;
   display: flex;
@@ -1784,7 +1893,7 @@ footer .footer__title-text {
     height: 114px;
     width: 335px;
     padding: 0px 0px 0px 0px;
-    margin: -9px 0px 0px -61px;
+    margin: -2px 0px 0px -61px;
   }
 }
 

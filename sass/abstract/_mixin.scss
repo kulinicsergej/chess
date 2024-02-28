@@ -5,11 +5,10 @@ font-weight: $weight;
 line-height: height;
 }
 
-// @mixin tool ($flex:flex, $direction:column, $justify: center) {
-//   display:$flex;
-//   flex-direction:$column;
-//   justify-content:$center;
-// }
+
 @mixin media-smail {
   @media (max-width:$mobile-smal-width){@content; }
+}
+@mixin big-width {
+  @media (max-width:$content-big-width){@content; }
 }

@@ -80,30 +80,6 @@ setInterval(() => {
 
 
 
-
-
-
-
-
-
-//_____________активная кнопка _________________________________________________________//
-
-
-const leftButton = document.querySelector('.button_colorblack');
-const rightButton = document.querySelector('.button_colored');
-
-
-leftButton.addEventListener('click', function() {
-  leftButton.classList.add('active');
-  rightButton.classList.remove('active');
-});
-
-
-rightButton.addEventListener('click', function() {
-  rightButton.classList.add('active');
-  leftButton.classList.remove('active');
-});
-
 //_____бегущая строка________________________________________________________//
 document.querySelector('.string__line').addEventListener('mouseover', function(event) {
   if (event.target.classList.contains('string')) {
@@ -145,7 +121,6 @@ function mytable() {
   }
 }
 
-// Добавить обработчик событий resize
 window.addEventListener('resize', mytable);
 
 //______________второй слайдер______________________________________________//
@@ -155,67 +130,114 @@ const next2 = document.querySelector('.button-next2');
 const prev2 = document.querySelector('.button-prev2');
 const dots2 = document.querySelectorAll('.dot2');
 
-let position2 = 0 ;
-let dotindex2=0;
+let position2 = 0;
+let dotindex2 = 0;
 
 const newSlider = () => {
-  if(position2 < (dots2.length - 2) * 355){
-      position2 += 355;
-      dotindex2++
-      slider.style.left = -position2 + 'px';
-      prev2.style.backgroundColor = ''; // Reset color
-      prev2.disabled = false; // Enable button
+  if (position2 < (dots2.length - 2) * 355) {
+    position2 += 355;
+    dotindex2++;
+    slider.style.left = -position2 + 'px';
+    prev2.style.backgroundColor = '';
+    prev2.disabled = false;
   } else {
-      position2 = 1420;
-     dotindex2 = dots2.length - 1; // Set to last dot
-      slider.style.left = -position2 + 'px';
-      next2.style.backgroundColor = '#D6D6D6'; // Set color to D6D6D6
-      next2.disabled = true; // Disable button
+    position2 = 1420;
+    dotindex2 = dots2.length - 1;
+    slider.style.left = -position2 + 'px';
+    next2.style.backgroundColor = '#D6D6D6';
+    next2.disabled = true;
   }
-  thisSlide(); // Add this line
+  thisSlide();
 }
 
 const prevSlider = () => {
-  if(position2 > 0){
-      position2 -= 355;
-      dotindex2--
-      slider.style.left = -position2 + 'px';
-      next2.style.backgroundColor = ''; // Reset color
-      next2.disabled = false; // Enable button
+  if (position2 > 0) {
+    position2 -= 355;
+    dotindex2--;
+    slider.style.left = -position2 + 'px';
+    next2.style.backgroundColor = '';
+    next2.disabled = false;
   } else {
-      position2 = 0;
-      dotindex2 = 0
-      slider.style.left = -position2 + 'px';
-      prev2.style.backgroundColor = '#D6D6D6'; // Set color to D6D6D6
-      prev2.disabled = true; // Disable button
+    position2 = 0;
+    dotindex2 = 0;
+    slider.style.left = -position2 + 'px';
+    prev2.style.backgroundColor = '#D6D6D6';
+    prev2.disabled = true;
   }
-  thisSlide(); // Add this line
+  thisSlide();
 }
 
-
-const thisSlide = () =>{
-  for(let dot of dots2){
-    dot.classList.remove('active')
+const thisSlide = () => {
+  for (let dot of dots2) {
+    dot.classList.remove('active');
   }
-  dots2[dotindex2].classList.add('active')
+  dots2[dotindex2].classList.add('active');
 }
 
+const updateSliderState = () => {
+  const windowWidth = window.innerWidth;
+  if (windowWidth <= 375) {
+    position2 = 355 * dotindex2;
+    slider.style.left = -position2 + 'px';
+  }
+}
 
-next2.addEventListener('click', newSlider );
-prev2.addEventListener('click', prevSlider );
+next2.addEventListener('click', newSlider);
+prev2.addEventListener('click', prevSlider);
+
+// dots2.forEach((dot, index) => {
+//   dot.addEventListener('click', () => {
+//     position2 = 355 * index;
+//     slider.style.left = -position2 + 'px';
+//     dotindex2 = index;
+//     thisSlide(dotindex2);
+//   });
+// });
+
+window.addEventListener('resize', updateSliderState);
 
 
-dots.forEach((dot,index) =>{
- dot.addEventListener('click', () =>{
-  position2 = 355 * index
-  slider.style.left = -position2 + 'px'
-  dotindex2 = index
-  thisSlide(dotindex2)
- })
-})
+//_____cылка по якорям________________________________________________________//
 
+window.onload = function() {
+  const leftButton = document.querySelector('.button_colorblack');
+  const rightButton = document.querySelector('.button_colored');
 
+  leftButton.addEventListener('click', function(event) {
+    event.preventDefault();
+    document.querySelector('#transformation').scrollIntoView({behavior: 'smooth'});
+    leftButton.classList.add('active');
+    rightButton.classList.remove('active');
 
+    leftButton.style.color = 'white'; 
+    rightButton.style.color = 'black';
+  });
 
+  rightButton.addEventListener('click', function(event) {
+    event.preventDefault();
+    document.querySelector('#participants').scrollIntoView({behavior: 'smooth'});
+    rightButton.classList.add('active');
+    leftButton.classList.remove('active');
+  
+    rightButton.style.color = 'white';
+    leftButton.style.color = 'black'; 
+  });
+};
 
+//____________________________адаптив для большого экрана _______________________________________//
+// // Get the element you want to modify
+// var element = document.getElementById("sity__big");
 
+// // Set the "overflow-x" property to the desired value
+// element.style.overflowX = 'none';
+// // ;
+// window.addEventListener('resize', function() {
+//   var width = window.innerWidth;
+//   var container = document.querySelector('.sity__container');
+
+//   if (width > 1366) {
+//     container.style.overflowX = 'visible';
+//   } else {
+//     container.style.overflowX = 'clip';
+//   }
+// });
