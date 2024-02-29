@@ -135,12 +135,11 @@ br{
   display: grid;
   // border: 1px solid red;
   height: 400px;
-  left: 0px !important;
+  // left: 0px !important;
   grid-template-columns: repeat(3, 394px);
   grid-template-rows: repeat(3, 112px);
   grid-gap: 20px;
  
-// }
 @include media-smail{
   position: relative;
 width: 1775px;
@@ -160,7 +159,6 @@ margin-top: 136px;
 margin-left: 20px;
 
 }
-
 }
 
 
@@ -562,7 +560,7 @@ background: #313131 ;
   width: 10px;
   height: 16px ;
   top: 31%;
- background-image: url('/img/icon.svg/carusel\ button\ left.svg') ;
+ background-image: url('/icon.svg/carusel\ button\ left.svg') ;
   background-size: cover;
   
 }
@@ -575,7 +573,7 @@ background: #313131 ;
   width: 10px;
   height: 16px ;
   top: 31%;
- background-image: url('/img/icon.svg/carousel\ button\ right\ \(1\).svg') ;
+ background-image: url('/icon.svg/carousel\ button\ right\ \(1\).svg') ;
   background-size: cover;
   
 }

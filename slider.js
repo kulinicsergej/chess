@@ -174,13 +174,17 @@ const thisSlide = () => {
   dots2[dotindex2].classList.add('active');
 }
 
-const updateSliderState = () => {
-  const windowWidth = window.innerWidth;
-  if (windowWidth <= 375) {
-    position2 = 355 * dotindex2;
-    slider.style.left = -position2 + 'px';
-  }
-}
+
+// const updateSliderState = () => {
+//   const windowWidth = window.innerWidth;
+//   if (windowWidth <= 375) {
+//     position2 = 355 * dotindex2;
+//     slider.style.left = -position2 + 'px';
+//   } else if(windowWidth >=1366){
+//     position2 = 0;
+//     slider.style.left = -position2 + 'px';
+//   }
+// }
 
 next2.addEventListener('click', newSlider);
 prev2.addEventListener('click', prevSlider);
@@ -194,7 +198,7 @@ prev2.addEventListener('click', prevSlider);
 //   });
 // });
 
-window.addEventListener('resize', updateSliderState);
+// window.addEventListener('resize', updateSliderState);
 
 
 //_____cылка по якорям________________________________________________________//

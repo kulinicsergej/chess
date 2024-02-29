@@ -72,10 +72,6 @@ padding-left: 14px;
 }
 }
 
-// .champion:nth-child(5){
-//   padding: 0px px 0px 10px;
-//   }
-// .champion:
 
 .champion__name{
 margin-top: 19px;
@@ -90,10 +86,8 @@ text-align: left;
 .champion__text{
   padding: 0px 0px 0px 0px;
 @include font (17px,120%,400);
-
   @include media-smail{
 @include font (17px,24px,400) ;
-   
   }
 }
 
@@ -106,13 +100,6 @@ text-align: left;
   }
 }
 
-// }
-
-// .champion__img{
-//   width: 320px;
-//   height: 320px;
-//   // border: 1px solid red;
-// }
 .champion__btn{
   text-align: center;
   align-items: center;
