@@ -1102,7 +1102,7 @@ tbody {
     width: 10px;
     height: 16px;
     top: 31%;
-    background-image: url("/icon.svg/carusel button left.svg");
+    background-image: url("/src/svg/carusel button left.svg");
     background-size: cover;
   }
 }
@@ -1114,7 +1114,7 @@ tbody {
     width: 10px;
     height: 16px;
     top: 31%;
-    background-image: url("/icon.svg/carousel button right (1).svg");
+    background-image: url("/src/svg/carousel button right (1).svg");
     background-size: cover;
   }
 }
@@ -1201,7 +1201,7 @@ tbody {
   top: 30%;
   left: 39%;
   height: 19.92px;
-  background-image: url("/icon.svg/carousel button right (1).svg");
+  background-image: url("/src/svg/carousel button right (1).svg");
 }
 @media (max-width: 375px) {
   .button-next {
@@ -1234,7 +1234,7 @@ tbody {
   top: 30%;
   left: 37%;
   height: 19.92px;
-  background-image: url("/icon.svg/carusel button left.svg");
+  background-image: url("/src/svg/carusel button left.svg");
 }
 @media (max-width: 375px) {
   .button-prev {
@@ -1754,7 +1754,7 @@ a .active {
 }
 
 .horse {
-  background-image: url("/icon.svg/Vector1.svg");
+  background-image: url("/src/svg/Vector1.svg");
   background-size: cover;
   width: 23px;
   height: 32px;
