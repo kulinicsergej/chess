@@ -1212,6 +1212,7 @@ tbody {
 
 .button-next-div:hover {
   background: #FBCE51;
+  cursor: pointer;
 }
 
 .button-prev-div {
@@ -1245,6 +1246,7 @@ tbody {
 
 .button-prev-div:hover {
   background: #FBCE51;
+  cursor: pointer;
 }
 
 .participants__title {

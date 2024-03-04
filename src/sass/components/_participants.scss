@@ -88,6 +88,8 @@ height: 36px;
 
 .button-next-div:hover{
 background: $color-actiove;
+cursor: pointer;
+
 }
 //_____________лево_____________________________________//
 
@@ -116,7 +118,7 @@ background: $color-actiove;
 }
 .button-prev-div:hover{
   background: $color-actiove;
-
+cursor: pointer;
   }
 
 
