@@ -1201,7 +1201,7 @@ tbody {
   top: 30%;
   left: 39%;
   height: 19.92px;
-  background-image: url("/src/svg/right1.svg");
+  background-image: url("../svg/right1.svg");
 }
 @media (max-width: 375px) {
   .button-next {
@@ -1235,7 +1235,7 @@ tbody {
   top: 30%;
   left: 37%;
   height: 19.92px;
-  background-image: url("/src/svg/left.svg");
+  background-image: url("../svg/left.svg");
 }
 @media (max-width: 375px) {
   .button-prev {
