@@ -1102,7 +1102,7 @@ tbody {
     width: 10px;
     height: 16px;
     top: 31%;
-    background-image: url("/src/svg/left.svg");
+    background-image: url("../svg/left.svg");
     background-size: cover;
   }
 }
@@ -1114,7 +1114,7 @@ tbody {
     width: 10px;
     height: 16px;
     top: 31%;
-    background-image: url("/src/svg/right1.svg");
+    background-image: url("../svg/right1.svg");
     background-size: cover;
   }
 }
@@ -1756,7 +1756,7 @@ a .active {
 }
 
 .horse {
-  background-image: url("/src/svg/Vector1.svg");
+  background-image: url("../svg/Vector1.svg");
   background-size: cover;
   width: 23px;
   height: 32px;

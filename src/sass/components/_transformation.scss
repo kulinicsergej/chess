@@ -560,7 +560,8 @@ background: #313131 ;
   width: 10px;
   height: 16px ;
   top: 31%;
- background-image: url('/src/svg/left.svg') ;
+//  background-image: url('/src/svg/left.svg') ;
+ background-image: url('../svg/left.svg') ;
   background-size: cover;
   
 }
@@ -573,7 +574,8 @@ background: #313131 ;
   width: 10px;
   height: 16px ;
   top: 31%;
- background-image: url('/src/svg/right1.svg') ;
+//  background-image: url('/src/svg/right1.svg') ;
+ background-image: url('../svg/right1.svg') ;
   background-size: cover;
   
 }
