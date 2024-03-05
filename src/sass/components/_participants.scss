@@ -78,7 +78,7 @@ height: 36px;
   left: 39%;
   height: 19.92px;
   // background-image: url(/img/carousel\ button\ right.png) ;
-  background-image: url('/src/svg/carousel\ button\ right\ \(1\).svg');
+  background-image: url('/src/svg/right1.svg');
 
 @include media-smail{
   top: 25%;
@@ -110,7 +110,8 @@ cursor: pointer;
   top: 30%;
   left: 37%;
   height: 19.92px;
-  background-image: url('/src/svg/carusel\ button\ left.svg');
+  // background-image: url('/src/svg/carusel\ button\ left.svg');
+  background-image: url('/src/svg/left.svg');
   @include media-smail{
     top: 25%;
     left: 29%;
