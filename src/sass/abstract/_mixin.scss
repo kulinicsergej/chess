@@ -1,0 +1,14 @@
+@mixin font ($size, $height, $weight, $style:normal){
+  font-size: $size;
+  font-style: $style;
+font-weight: $weight;
+line-height: height;
+}
+
+
+@mixin media-smail {
+  @media (max-width:$mobile-smal-width){@content; }
+}
+@mixin big-width {
+  @media (max-width:$content-big-width){@content; }
+}

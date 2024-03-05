@@ -1,0 +1,72 @@
+.header{
+  background: $color-header-toll;
+padding: 26px 0px 2px;
+// z-index: -1;
+position: relative;
+
+@include big-width{
+  padding: 26px 0px 0px 0px ;
+
+}
+@include media-smail{
+  padding: 17px 0px 0px 0px ;
+}
+}
+.header__wrapper{
+  position: relative;
+  // z-index: -1;
+  // border: 1px solid red;
+  margin: 0 auto;
+  max-width: 1365px;
+  @include media-smail{
+    padding: 0px 0px 0px 0px;
+  }
+}
+
+.horses__clab-text{
+  color: #595653;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: "Golos Text";
+  font-size: 16.651px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 108%; /* 17.983px */
+  text-transform: uppercase;
+  @include media-smail{
+    font-size: 14.24px;
+  }
+}
+.horses{
+  display: flex;
+  width:90px;
+
+  @include big-width{
+    width:92px;
+  }
+  @include media-smail{
+    padding: 0px 0px 0px 0px;
+    width:80px;
+  }
+}
+.horse{
+  // background-image: url('/src/svg/Vector1.svg');
+  background-image: url('../svg/Vector1.svg');
+ 
+  background-size: cover;
+width: 23px ;
+height: 32px;
+display: inline-block;
+}
+
+
+
+.horse:hover {
+  cursor: pointer;
+  filter: brightness(0) saturate(86%) invert(78%) sepia(87%) saturate(4128%) hue-rotate(724deg) brightness(105%) contrast(82%)
+}
+
+
+.horses__clab-text:hover{
+  cursor: pointer;
+  color:  #FBCE51;
+}

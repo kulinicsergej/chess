@@ -1,0 +1,182 @@
+.participants__wrapper{
+  // height: 630px;
+  padding-top: 6%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding: 0px 10px ;
+// overflow: hidden;
+@include media-smail{
+//  border: 1px solid red;
+width: 370px;
+position: relative;
+overflow: hidden;
+}
+}
+ .wrapper__transformation{
+  // height: 660px;
+  width: 1222px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+.participants__wrapper{
+  z-index: 11;
+
+  // height: 660px;
+    width: 1222px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ @include media-smail{
+  position: relative;
+  // justify-content: space-between;
+// height: 500px;
+// border: 2px soid green;
+ }
+}
+.participants__tpo{
+  padding: 206px 0px 0px 1px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ @include media-smail{
+  padding: 124px 0px 0px 9px;
+  display: block;
+
+
+ }
+}
+
+
+.carosel__numbering{
+align-items: center;
+  display: flex;
+  text-align: center;
+  // width: 35px;
+  // height: 11px;
+  // gap: 1px;
+}
+//________вправо_______________________________//
+.button-next-div{
+  position: relative;
+background: #313131;
+border-radius: 40px;
+width: 44px;
+height: 44px;
+@include media-smail{
+  width: 36px;
+height: 36px;
+}
+}
+
+.button-next{
+  
+  position: absolute;
+  width: 12.48px;
+  top: 30%;
+  left: 39%;
+  height: 19.92px;
+  // background-image: url(/img/carousel\ button\ right.png) ;
+  background-image: url('../svg/right1.svg');
+
+@include media-smail{
+  top: 25%;
+  left: 42%;
+}
+}
+
+.button-next-div:hover{
+background: $color-actiove;
+cursor: pointer;
+
+}
+//_____________лево_____________________________________//
+
+.button-prev-div{
+  position: relative;
+  background: #313131;
+  border-radius: 40px;
+  width: 44px;
+  height: 44px;
+  @include media-smail{
+    width: 36px;
+  height: 36px;
+  }
+}
+.button-prev{
+  position: absolute;
+  width: 12.48px;
+  top: 30%;
+  left: 37%;
+  height: 19.92px;
+  // background-image: url('/src/svg/carusel\ button\ left.svg');
+  background-image: url('../svg/left.svg');
+  @include media-smail{
+    top: 25%;
+    left: 29%;
+  }
+}
+.button-prev-div:hover{
+  background: $color-actiove;
+cursor: pointer;
+  }
+
+
+
+
+.participants__title{
+  font-family: 'Merriweather';
+font-size: 54px;
+font-weight: 400;
+line-height: 65px;
+letter-spacing: 0px;
+text-align: left;
+width: 806px;
+height: 65px;
+@include media-smail{
+// width: 335px;
+// height: 80px;
+font-size: 36px;
+line-height: 39px;
+width: 0px;
+
+
+
+}
+
+}
+// .participants__battons{
+//   padding: 4px 5px 0px 1px;
+//   display: flex;
+//   @include media-smail{
+//     z-index: 20 ;
+//   display: flex;
+
+//   }
+// }
+.participants__battons{
+
+
+  width:151px ;
+  // height: 44px;
+  display: flex;
+  justify-content: space-between;
+  // align-items: center;
+  text-align: center;
+  @include media-smail{
+    position: absolute;
+    top: 88%;
+    left: 31%;
+  width:129px ;
+  height: 36px;
+
+
+  }
+}
+
+//_________slider_________________________
+
+
+
+

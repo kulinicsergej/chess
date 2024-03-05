@@ -1,0 +1,34 @@
+//абстракные штуки
+@import"abstract/constants";
+@import"abstract/placeholders";
+@import"abstract/mixin";
+
+
+
+
+
+//kомпоненты
+
+@import"components/sity";
+@import"components/discription";
+@import"components/transformation";
+@import"components/participants";
+@import"components/slider";
+
+//базовые штуки
+@import"base/base";
+@import"base/buttons";
+@import"base/logo";
+
+
+//калонки лайауты
+
+@import"layouts/wrapper";
+@import"layouts/header";
+@import"layouts/string";
+@import"layouts/string__bottom";
+@import"layouts/footer";
+@import"layouts/main";
+
+
+

@@ -1,0 +1,479 @@
+.description__wrapper{
+
+  // height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 41px 0px 0px 0px  ;
+  @include media-smail{
+    // width: 335px;
+    // height: 1759px;
+    justify-content: space-between;
+  padding: 0px 0px 0px 0px  ;
+
+  }
+
+.description__photo{
+  margin:0 auto;
+  width: $wrapper-internal;
+  @include media-smail{
+    width: auto;
+      height: auto;
+  }
+  // }
+}
+.lakation{
+
+  text-align: right;
+  padding: 6px;
+  margin-right: 9px;
+  // padding: 5px 11px 1px 0px ;
+  letter-spacing: -0.1px;
+  @include media-smail{
+    font-family: 'Merriweather';
+font-size: 28px;
+font-weight: 400;
+line-height: 38px;
+
+text-align: left;
+  }
+}
+.lakation__color{
+  color: $color-span-text;
+  @include media-smail{
+    font-family: 'Merriweather';
+font-size: 28px;
+font-weight: 400;
+line-height: 38px;
+letter-spacing: 0px;
+text-align: left;
+margin-top: -8px;
+  }
+}
+.block__title{
+  margin-top: -54px;
+@include media-smail{
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column-reverse;
+
+}
+}
+
+@include media-smail{
+  .title__rew{
+    display: flex;
+    flex-direction: column;
+    padding-top: 16px;
+  
+  }
+}
+
+
+.teble{
+  position: relative;
+  width: 394px;
+  top:-62%;
+  left: 109%;
+  @include media-smail{
+    left: 3%;
+    padding-top: 16px;
+    width: 335px;
+  }
+
+}
+
+.description__title{
+  display: block;
+   width: 760px;
+ height: 195.43px;
+  padding: 14px 0px 31px 0px;
+  display: flex;
+  flex-direction: column;
+  @include media-smail{
+    width: auto;
+    height: auto;
+    padding: 42px 0px 0px 0px;
+
+  }
+
+}
+.title__second{
+  display: flex;
+  flex-direction: column;
+  margin-top: -58px;
+}
+
+
+
+h2{
+// letter-spacing: -0.5px !important;
+//  width: 760px;
+//  height: 195.43px;
+font-family: 'Merriweather';
+font-size: 36px;
+font-weight: 400;
+line-height: 47px;
+letter-spacing: 0px;
+text-align: left;
+@include media-smail{
+  z-index: 10;
+  padding: 9px;
+  order:0;
+  width:335px ;
+  // height: 152px;
+  font-family: 'Merriweather';
+font-size: 28px;
+font-weight: 400;
+line-height: 38px;
+letter-spacing: 0px;
+text-align: left;
+// margin-top: -28px;
+}
+}
+
+
+.menches{
+  margin-left: -42px;
+  position: relative;
+  width: 498px;
+  height: 527px;
+  padding: 58px 0px 0px 38px ;
+//   margin-left: -24px;
+//  margin-top: 42px;
+//  border: 1px solid red;
+@include media-smail{
+  position: absolute;
+  width: 335px;
+  padding: 0px 0px 0px 0px ;
+  right: 11%;
+  height: 402px;
+bottom: 52%;
+}
+}
+
+
+.description__and-photo-footer{
+  position: relative;
+  padding-top: 2px;
+  display: flex;
+  justify-content:center;
+  // flex-direction: row-reverse;
+  @include media-smail{
+    width: 375px;
+ flex-direction: column;
+ justify-content: center;
+
+  // // border: 1px solid red;
+  // height: 837px;
+  // justify-content:space-between;
+
+  }
+}
+
+.content{
+display: flex;
+flex-direction: column;
+  margin: 57px 0px 0px 16px;
+  // border: 1px solid red;
+ width: 704px;
+//  padding-right: 28px;
+ justify-content: space-between;
+
+ @include media-smail{
+  padding-top: 115%;
+  position: relative;
+  top:12%;
+  width: 375px;
+  margin: 0px 0px 0px 11px;
+ }
+}
+
+.fon{
+  position: absolute;
+  padding:37px 0px 0px 22px;
+@include media-smail{
+  padding: 0px;
+  left: 11%;
+  width: 87%;
+  top: -29%;
+  z-index: 3;
+}
+}
+}
+
+.men{
+  z-index: 13;
+  position: absolute;
+  left: 21%;
+  bottom: 17%;
+@include media-smail{
+  width: 70%;
+  z-index: 10;
+  position: absolute;
+  left: 22.8%;
+  bottom: 60%;
+}
+}
+.fair{
+  // z-index: 10;
+  position: absolute;
+  left:2%;
+  bottom:36%;
+  @include media-smail {
+    z-index: 6;
+    width: 106%;
+    left: 3%;
+    bottom: 81%;
+
+  }
+}
+.che{
+  z-index: 26;
+  position: absolute;
+  left:18%;
+  bottom:0%;
+  @include media-smail{
+    width: 33%;
+    left: 20%;
+    bottom: 42%;
+  }
+}
+.hand{
+  z-index: 13;
+  position: absolute;
+  left:43%;
+  bottom:-16%;
+  @include media-smail{
+    width: 59%;
+    left:47%;
+    bottom: 25%;
+  }
+
+}
+.fairbottom{
+  z-index: 16;
+  position: absolute;
+  left:4%;
+  bottom:3%;
+  @include media-smail{
+    width: 51%;
+    left: 4%;
+    z-index: 10;
+    bottom: 45%;
+  }
+
+}
+.ruble{
+  z-index: 10;
+  position: absolute;
+  left:73%;
+  top:13%;
+  @include media-smail{
+    width: 25%;
+    left: 81%;
+    top: -29.5%;
+  };
+
+}
+.top__line{
+  position: relative;
+  font-family: Golos Text;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+opacity: 70%;
+
+}
+
+.block__table{
+  padding-top: 23px;
+  @include media-smail{
+  padding-top: 15px;
+padding: 26px 30px  21px 7px;
+
+  }
+}
+
+.botto__line{
+  position: relative;
+  padding-left: 24px;
+  font-family: Golos Text;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  @include media-smail{
+  padding-left: 0px;
+
+  }
+  
+
+}
+
+.administration{
+  font-family: Golos Text;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+
+// }
+//черта в таблице горизонт..
+.top__line::after{
+  content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0%;
+    width:251%;
+    border-bottom: 1px solid #D0D0D0; 
+    @include media-smail{
+    width: 0%;
+  
+    }
+}
+
+//при адаптиве черта
+.botto__line::after{
+  content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0%;
+    width:0%;
+    border-bottom: 1px solid #D0D0D0; 
+    @include media-smail{
+    width: 112%;
+      bottom: -64%;
+      
+    }
+}
+
+.botto__line::before {
+  content: "";
+  position: absolute;
+  top: -16px;
+  bottom: 8px;
+  right: 90.4%;
+  border-left: 1px solid  #D0D0D0;
+  @include media-smail{
+    display: none;
+ 
+  }
+}
+td{
+
+  @include media-smail{
+    display: flex;
+
+  }
+
+}
+tr{
+  @include media-smail{
+gap: 10px;
+// height: 20px;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+
+}
+  }
+
+
+tbody{
+height: 277px;
+  @include media-smail{
+    display: flex;
+    flex-direction: column;
+    height: 415px;
+    justify-content: space-around;
+    // padding-top: 21px;
+    // padding-left: 12px;
+}
+  }
+
+.row{
+  @include media-smail{
+  display: flex !important;
+  flex-direction: row;
+  justify-content: flex-start;
+  // width: 100%;
+
+  }
+
+}
+@include media-smail{
+  .row::before{
+    content: "";
+    position: absolute;
+    left: 6px;
+    bottom: 22.8%;
+    width:85%;
+    border-bottom: 1px solid #D0D0D0; 
+  }
+}
+
+.table__left{
+  font-family: Golos Text;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.1px;
+text-align: left;
+
+}
+.table__right{
+  // padding: 0px 0px 0px 10px ;
+  text-align: left;
+  flex-direction: row;
+  display: flex;
+  font-family: Golos Text;
+font-size: 21px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+margin: 0px 2px 0px 17px ;
+@include media-smail{
+margin: 0px 2px 0px 0px ;
+
+}
+}
+
+.cross__out{
+position: relative;
+padding-right: 15px;
+}
+.cross__out::before{
+  content: "";
+  position: absolute;
+  bottom: 9px;
+  left: 0;
+  width: 90%;
+  height: 3px;
+  background-color: rgb(230, 12, 12);
+}
+
+.block__administration{
+  padding: 0px 0px 0px 0px;
+@include media-smail{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+}
+.administration{
+  @include media-smail{
+ font-size: 18px;
+ padding-bottom: 7%;
+ margin-left: 9px;
+  }
+}

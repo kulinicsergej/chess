@@ -1,2 +1,2 @@
 # chess
- Four Horses Club
+ `https://kulinicsergej.github.io/chess/src/`

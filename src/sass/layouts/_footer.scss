@@ -1,0 +1,33 @@
+footer{
+  padding: 46px 0px 0px 83px;
+height: 100%;
+background:$color-header-toll ;
+display: flex;
+flex-direction: column;
+justify-content: center;
+overflow: hidden;
+@include media-smail{
+  height: auto;
+}
+
+.footer__title-text{
+  margin-top: -7px;
+  width: 1222px;
+  // height: 38px;
+  font-family: Golos Text;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0px;
+text-align: left;
+// border: 1px solid red;
+padding: 0px 81px 15px 0px;
+ @include media-smail{
+  height: 114px;
+  width: 335px;
+padding: 0px 0px 0px 0px;
+margin: -2px 0px 0px -61px ;
+ }
+}
+
+}
